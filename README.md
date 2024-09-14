@@ -22,3 +22,15 @@ In Docker terms:
 
   **Docker** builds images by reading the instructions from a **Dockerfile**. 
   A Dockerfile is a **text document** that contains all the commands a user could call on the command line to assemble an image.
+
+#### Mnemonic to remember some most used commands in a Dockerfile 
+##  > **"Funky Workers Cook Regularly, Examining Health Constantly"**
+  
+   - **F**unky – **FROM** (base image)
+   - **W**orkers – **WORKDIR** (set working directory)
+   - **C**ook – **COPY** (copy files)
+   - **R**egularly – **RUN** (execute commands)
+   - **E**xamining – **EXPOSE** (open ports)
+   - **H**ealth – **HEALTHCHECK** (check container health)
+   - **C**onstantly – **CMD** (default command)
+ 
