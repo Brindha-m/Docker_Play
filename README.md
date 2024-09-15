@@ -33,4 +33,6 @@ In Docker terms:
    - **E**xamining – **EXPOSE** (open ports)
    - **H**ealth – **HEALTHCHECK** (check container health)
    - **C**onstantly – **CMD** (default command)
- 
+
+ <img width="663" alt="{74BBA481-649C-4BFA-B7C7-7025F987B27A}" src="https://github.com/user-attachments/assets/dd5b3933-6fb0-483b-8c03-0466118dcd40">
+
