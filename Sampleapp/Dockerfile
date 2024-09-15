@@ -5,13 +5,13 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy the requirements file to the working directory
-COPY Docker_Play/Sampleapp/requirements.txt .
+COPY requirements.txt .
 
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code to the working directory
-COPY Docker_Play/Sampleapp/app.py .
+COPY app.py .
 
 # Expose the port that the app will run on
 EXPOSE 8000
