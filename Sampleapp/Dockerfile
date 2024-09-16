@@ -24,3 +24,4 @@ ENTRYPOINT ["streamlit", "run", "app.py"]
 
 # Health check to verify that the container is running correctly
 HEALTHCHECK CMD curl --fail http://localhost:8000/ || exit 1
+
