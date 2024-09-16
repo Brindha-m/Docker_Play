@@ -37,9 +37,8 @@ In Docker terms:
   **Docker** builds images by reading the instructions from a **Dockerfile**. 
   A Dockerfile is a **text document** that contains all the commands a user could call on the command line to assemble an image.
 
-  #### Mnenomic covers some of common Dockerfile commands
-  Sure! Here’s a mnemonic that covers all those commands:
-
+  #### Mnenomic covers some of common Dockerfile commands:
+ 
   **"Funky Workers Cook Regularly, Examining Health Constantly"**
   
   - **F**unky – **FROM** (base image)
@@ -148,7 +147,7 @@ HEALTHCHECK CMD curl --fail http://localhost:8000/ || exit 1
 ### 4. Share the Project using Docker HuB Registry 
 - To Create a repository in dockerhub. Either Use CMD OR Direct website [steps](https://docs.docker.com/get-started/workshop/04_sharing_app/)
 
-  <img width="700" alt="{ACF518FD-6814-4848-AB73-F62FF5781E2C}" src="https://github.com/user-attachments/assets/848640d3-9bbe-4f3e-a949-a36613a7f456">
+<img width="700" alt="{ACF518FD-6814-4848-AB73-F62FF5781E2C}" src="https://github.com/user-attachments/assets/848640d3-9bbe-4f3e-a949-a36613a7f456">
 
   - ## docker tag and push
     
