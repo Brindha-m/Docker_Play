@@ -157,6 +157,8 @@ docker run -p 80:80 USER_NAME/imagename(i.reponame)
 
 
 
+### Logout from docker account and just pull the public repo and you will be able to run the docker container.
+<img width="700" alt="{DD07D8AB-5DE3-4392-8923-1D9E8329BE59}" src="https://github.com/user-attachments/assets/be86407d-46ad-4b7d-b639-7da8ba846082">
 
 
 # TODOS: docker compose 
