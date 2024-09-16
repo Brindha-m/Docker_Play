@@ -5,8 +5,12 @@
 
 > #### For Windows Download - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-- **Docker** helps you package everything your ` app needs (like code, libraries, and dependencies) ` into a neat, portable container. 
-- This way, you can run your app on any machine, and it’ll work just like it did on your own.
+<img width="700" src="https://github.com/user-attachments/assets/92a6b722-5bb6-4d38-9790-a233f7c2641b">
+
+<br>
+
+- #### **Docker** helps you package everything your ` app needs (like code, libraries, and dependencies) ` into a neat, portable container. 
+- #### This way, you can run your app on any machine, and it’ll work just like it did on your own.
   
 <img width="700" alt="{F7F7D4DB-DC3E-43CE-8047-ADAE82AE5C94}" src="https://github.com/user-attachments/assets/e1a5cd62-ef10-4851-9dbb-09e4f5b33136">
 
@@ -32,7 +36,22 @@ In Docker terms:
 
   **Docker** builds images by reading the instructions from a **Dockerfile**. 
   A Dockerfile is a **text document** that contains all the commands a user could call on the command line to assemble an image.
-Here's a colorfully styled code section for your README:
+
+  #### Mnenomic covers some of common Dockerfile commands
+  Sure! Here’s a mnemonic that covers all those commands:
+
+  **"Funky Workers Cook Regularly, Examining Health Constantly"**
+  
+  - **F**unky – **FROM** (base image)
+  - **W**orkers – **WORKDIR** (set working directory)
+  - **C**ook – **COPY** (copy files)
+  - **R**egularly – **RUN** (execute commands)
+  - **E**xamining – **EXPOSE** (open ports)
+  - **H**ealth – **HEALTHCHECK** (check container health)
+  - **C**onstantly – **CMD** (default command)
+
+  <img width="700" src="https://github.com/user-attachments/assets/07252c05-b476-44a4-8944-912c72b9e179">
+  
 
 ```dockerfile
 
@@ -71,6 +90,10 @@ HEALTHCHECK CMD curl --fail http://localhost:8000/ || exit 1
 <br>
 
 ### 2. Build the app's image
+
+<img width="200" src="https://github.com/user-attachments/assets/257787c1-24e2-4f8b-b909-945bf58a52f3">
+
+
 ```dockerfile
  # -t is the tag name
  docker build -t <image name> .
